@@ -1,0 +1,7 @@
+vowels='aeiouAEIOU'
+def vowels_count(txt):
+    for vowel in vowels:
+        if vowel in txt:
+            print vowel,txt.count(vowel)
+txt_input=raw_input("Enter Text : ")
+vowels_count(txt_input)
